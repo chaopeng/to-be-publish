@@ -33,7 +33,7 @@ sudo mkfontdir
 sudo fc-cache -fsv
 ```
 
-## 安装texliv ##
+## 安装texlive ##
 
 1 安装perl-tk 
 
