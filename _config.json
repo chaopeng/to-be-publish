@@ -1,8 +1,8 @@
 BlogConfig
 {
-	site: "chaopeng.github.com",
+	site: "chaopeng.me",
 	path: "/blog",
-	author: "ChaoPeng",
+	author: "巢鹏",
 	blogname: "巢鹏的Pensieve",
 	# set the markdown engine which you like
 	markdownengine: "C:/Python33/markdown_py.bat -x toc -x footnotes -x fenced_code -x tables",
