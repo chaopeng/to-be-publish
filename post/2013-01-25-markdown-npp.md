@@ -16,9 +16,9 @@ markdown的高亮
 ----
 其实有没有高亮其实是没所谓的，毕竟markdown的语法比较简单。
 就算没有高亮也不会有太大的问题，但是为了可以看起来更加舒服。
-github上面有一个很好的[配置文件] (https://github.com/robwierzbowski/Notepad---Markdown-Highlighting/blob/master/userDefineLang.xml) ，
+github上面有一个很好的[配置文件](https://github.com/robwierzbowski/Notepad---Markdown-Highlighting/blob/master/userDefineLang.xml)，
 你也可以使用这个配置文件来配置。当然这个配置文件相当不适合我这个黑夜系的程序猿。
-所以我也根据这个修改了[一个] (https://github.com/chaopeng/Notepad---Markdown-Highlighting/blob/master/userDefineLang.xml) 。 
+所以我也根据这个修改了[一个](https://github.com/chaopeng/Notepad---Markdown-Highlighting/blob/master/userDefineLang.xml)。 
 
 如果你需要使用这个可以运行(即win键+r) 执行`%APPDATA%\Notepad++`，粘贴`userDefineLang.xml`到这个目录。
 然后重启一下notepad++就可以看到效果了。
@@ -31,10 +31,10 @@ markdown导出html
 ----
 其实markdown导出html，在notepad++是很容易实现的，只需要吧你调用markdown引擎的命令复制到`Run-运行`就可以了。
 当然这里说的不会那么简单啦。
-我喜欢用python-markdown引擎，大家如果看过我的[chaosblog] (https://github.com/chaopeng/chaosblog) 的话应该都知道。
+我喜欢用python-markdown引擎，大家如果看过我的[chaosblog](https://github.com/chaopeng/chaosblog)的话应该都知道。
 但是python-markdown只会生成内容，不会带有完整html格式，当然你也可以用插件来生成一个html，但是这样就没有办法去修改markdown的css。
 同时也失去了markdown只控制内容而格式无关的特性了。
-所以我做了一个[简单的生成html的程序](https://github.com/chaopeng/chaos-markdown) ，
+所以我做了一个[简单的生成html的程序](https://github.com/chaopeng/chaos-markdown)，
 当然这个也是大量重用了chaosblog的代码，所以markdown引擎也是可以更换的，同时你也可以更换css。
 
 如果你想使用我的这个markdown-html生成器，你可以下载源代码编译，也可以使用我已经打包好的。把bin目录的文件复制到你喜欢的位置。
