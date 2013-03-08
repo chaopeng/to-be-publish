@@ -1,6 +1,6 @@
 {
 layout: "pages",
-title: "chrome上用markdown",
+title: "chrome上用markdown写作",
 category: "chaosblog",
 description: "在chrome上的markdown写作与演示",
 tags: ["markdown", "chrome"]
