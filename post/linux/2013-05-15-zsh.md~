@@ -1,0 +1,23 @@
+{
+layout: "pages",
+title: "zsh使生活更美好",
+category: "linux",
+description: "linux下载工具批量下载用法",
+tags: ["linux","wget","multiget"]
+}
+
+最近看到的几篇介绍zsh的文章，看得相当爽。自己也就上手玩了一下。先介绍一下安装：
+
+*安装
+	```sudo apt-get install zsh```
+
+*安装oh-my-zsh配置
+	```wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh```
+
+*切换成默认的sh
+	```chsh -s /bin/zsh```
+
+
+
+**更多参考**
+[使用 Zsh 的九个理由](http://lostjs.com/2012/09/27/zsh/)
