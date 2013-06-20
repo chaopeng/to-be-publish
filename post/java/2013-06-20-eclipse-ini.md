@@ -8,7 +8,7 @@ tags: ["java","eclipse"]
 
 这仅仅是一个eclipse加速的笔记，是参考《深入理解java虚拟机》一书修改eclipse.ini的。具体过程不表。下面是主要修改的部分：
 
-```{eclipse.ini}
+```{ini}
 在-vmargs下面加：
 
 -Xverify:none
