@@ -10,7 +10,7 @@ tags: ["书单"]
 
 * [Nginx开发从入门到精通](http://tengine.taobao.org/)
 	
-	tengine的大名相信大家都很熟悉了，这本淘宝编写整理的图书相当值得需要了解nginx的朋友阅读。当然不少nginx的开发者(如[@暗铁] (http://weibo.com/u/1688048062))表示nginx的源码比较好读，直接改就行。
+	tengine的大名相信大家都很熟悉了，这本淘宝编写整理的图书相当值得需要了解nginx的朋友阅读。当然不少nginx的开发者(如[@暗铁](http://weibo.com/u/1688048062))表示nginx的源码比较好读，直接改就行。
 
 * [Redis 设计与实现](http://www.redisbook.com/)
 
