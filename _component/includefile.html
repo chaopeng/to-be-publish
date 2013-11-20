@@ -6,58 +6,12 @@
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link rel="stylesheet" type="text/css" href="/assets/prettify/prettify.css" />
+<link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/prettify/r298/prettify.css" />
 <link rel="stylesheet" type="text/css" href="/assets/prettify/sons-of-obsidian.css" />
 <link rel="stylesheet" type="text/css" href="/assets/chaoscodebox/chaoscodebox.css" />
-<script type="text/javascript" src="/assets/prettify/prettify.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/prettify/r298/prettify.js"></script>
 <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript" src="/assets/chaoscodebox/chaoscodebox.js"></script>
 <script type="text/javascript" src="/assets/js/function.js" charset="utf-8"></script>
 <script type="text/javascript" src="http://cdn.staticfile.org/mathjax/2.2/MathJax.js"></script>
-<script type="text/javascript">
 
-// ie真心难搞
-var userAgent = navigator.userAgent.toLowerCase();
-var is_ie = userAgent.indexOf('msie') != -1;
-if(is_ie){
-	alert("请你换个浏览器吧！！！");
-}
-
-// 引入多说
-var duoshuoQuery = {short_name:"chaopeng"};
-(function() {
-	var ds = document.createElement('script');
-	ds.type = 'text/javascript';ds.async = true;
-	ds.src = 'http://static.duoshuo.com/embed.js';
-	ds.charset = 'UTF-8';
-	(document.getElementsByTagName('head')[0] 
-	|| document.getElementsByTagName('body')[0]).appendChild(ds);
-})();
-
-// 我只是想高亮
-$(document).ready(function(){
-	prettify();
-	back_to_top();
-});
-
-// 侧边栏随动
-$(function() {
-	var $sidebar   = $("#sidebar"),   
-	$window    = $(window),   
-	offset     = $sidebar.offset(),   
-	topPadding = 50;   
-      
-	$window.scroll(function() {   
-		if ($window.scrollTop() > offset.top) {   
-			$sidebar.stop().animate({   
-				marginTop: $window.scrollTop() - offset.top + topPadding   
-			});   
-		} else {   
-			$sidebar.stop().animate({   
-				marginTop: 0   
-			});   
-		}   
-	});   
-});   
-
-</script>
