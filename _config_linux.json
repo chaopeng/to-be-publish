@@ -12,7 +12,7 @@ BlogConfig
 
 AuthorInfo
 {
-	mail: "139025826@qq.com",
+	mail: "chaopeng@chaopeng.me",
 	gravatar: "139025826@qq.com",
 	gravatarserver: "https://secure.gravatar.com",
 	weibo: "http://weibo.com/chaojianpeng",
