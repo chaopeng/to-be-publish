@@ -8,7 +8,7 @@ tags: ["linux","grub2"]
 
 由于本人已经没有光驱多年，所以安装系统全靠u盘。之前我一直用UltraIso这款工具制作安装u盘，但是经常会遇到某个发行版莫名其妙就不能安装的情况，一天与[王sir](http://weibo.com/prinseer) 喝咖啡，被王sir发现我还用这么落后的方法，被鄙视了一顿，再王sir的提示下我也开始制作我的grub2 u盘了。
 
-​##设备准备
+##设备准备
 
 1. 将u盘分区成一只fat32 bootable u盘，简答不表。
 2. `sudo blkid` 查看分区UUID记下了，有用。
