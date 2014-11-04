@@ -1,7 +1,7 @@
 {
 layout: "pages",
 title: "移民",
-category: "canada",
+category: "Canada",
 description: "",
 tags: ["canada"]
 }

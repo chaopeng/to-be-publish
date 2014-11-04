@@ -52,4 +52,4 @@ HP 120W AC Adapter            | 60
 **特别感谢**
 
 * [大神ICEMAN](http://www.icemancooler.com)
-* [张记](gznewpower.taobao.com)
+* [张记](http://gznewpower.taobao.com)
