@@ -41,3 +41,7 @@ update-alternatives --install /usr/bin/java java /opt/jdk1.7/bin/java 300
 
 现在装sun-jdk终于不用改`profile`，原来世界是这么美好的。
 
+## 2014年更新
+
+如果你找到了这篇文章，请允许我推荐你使用 [jevn](http://jenv.io)去安装 JDK，适用于所有的 Linux 发行版。版本切换很方便，其他 Java 的工具安装很方便。
+
