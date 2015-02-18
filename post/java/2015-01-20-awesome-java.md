@@ -65,6 +65,7 @@ Github 上其实有个类似的[文章](https://github.com/akullpp/awesome-java)
 - [Netty](http://netty.io) Java 首选 NIO 服务端框架，用来做游戏服务器多年，用来做 WebServer 有奇效。
 - [spray](http://spray.io/) Scala Http 框架，跟 Akka 完美整合。
 - [OkHttp](http://square.github.io/okhttp/) 简单易用的 http client。
+- [unirest](https://github.com/Mashape/unirest-java) 一个易用的 REST client，依赖与Apache Commons Http。
 
 ### 分布式应用框架
 
