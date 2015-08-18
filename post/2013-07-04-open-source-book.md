@@ -24,4 +24,4 @@ tags: ["书单"]
 * [深入理解PHP内核](https://github.com/reeze/tipi)
 * [GotGitHub](http://www.worldhello.net/gotgithub/)
 * [proGit](https://github.com/progit/progit/tree/master/)
-
+* [Netty 实战](https://www.gitbook.com/book/waylau/essential-netty-in-action/details)
