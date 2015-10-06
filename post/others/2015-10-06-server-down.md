@@ -1,7 +1,7 @@
 {
 layout: "pages",
 title: "记一次集群故障",
-category: "other",
+category: "踩坑",
 description: "检讨一次服务器故障导致的集群雪崩",
 tags: ["cluster"]
 }
