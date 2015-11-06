@@ -51,7 +51,9 @@ ChaosBlog 自从 2013-01-06 完成以后就一直没有什么大的变动。做�
     考察了一波 Java 的 Markdown 引擎确实还是没有像 Python-Markdown 那么完整的，但是现在的我应该有能力自己改一个了。昨天试了一下，花了3个小时给 [pegdown](https://github.com/sirthias/pegdown) 加了 TOC 的支持，这样就跟我在用 Python-Markdown 的特性一致了，而且我还多加了在 `TOC` 标签做标题等级限制。已经 PR 了，现在等 pegdown 那边 merge 就可以用了。我没想到我也能这么轻松改 Parser，挺惊喜的，毕竟这块东西我以前完全没有接触过。
     
 - markdown 格式更换
+
 - ChaosBlog 分页支持
+
 - 前端响应式修改
 
 ## 反思
