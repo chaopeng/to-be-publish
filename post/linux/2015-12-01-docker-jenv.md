@@ -21,7 +21,7 @@ chaopeng/jenv        latest              5b752e05eee4        3 weeks ago        
 centos               latest              e9fa5d3a0d0e        6 weeks ago         172.3 MB
 ```
 
-`chaopeng/jenv`果然很大了，赶紧进去看看，原来jenv的下载缓存忘记清理，赶紧跑一下`jenv clean`。立马减肥176M。顺手跑一下`yum clean all`，再省60M。成功减肥到565M，其中355M属于java，210M属于centos及其依赖。由于暂时不考虑减肥到只有jre没有jdk，所以java这块就不继续删了。
+`chaopeng/jenv`果然很大了，赶紧进去看看，原来jenv的下载缓存忘记清理，赶紧跑一下`jenv clean`。立马减肥176M。顺手跑一下`yum clean all`，再省60M。成功减肥到565M，其中355M属于java，210M属于centos及其依赖。如果再想优化还能删什么呢？可以删java下面的jre、src、man这些文件。
 
 ## 更换依赖os
 
@@ -65,7 +65,7 @@ chaopeng/alpine      latest              8998bdbddf9a        About an hour ago  
 
 所以说使用alpine将近可以又节省190M。
 
-当然这样的东西必然有些不足的地方，比如说源里面的东西比较少，第三方支持几乎没有，这样就导致很多软件并不适合使用alpine来做os包。但是我的这个jenv就很合适了，软件上的依赖很简单。
+当然这样的东西必然有些不足的地方，比如说源里面的东西比较少，第三方支持几乎没有，这样就导致很多软件并不适合使用alpine来做os包。但是我的这个jenv就很合适了，软件上的依赖很简单。注意oracle-jdk对glibc有依赖，需要找个alpine的glibc包安装。
 
 ## 总结
 
@@ -74,4 +74,4 @@ chaopeng/alpine      latest              8998bdbddf9a        About an hour ago  
 
 ---------
 
-减肥结果，jenv从800M减肥到565M(centos)或者375M(alpine)。因为jenv.io挂了，等大大修复好，我再更新dockerfile吧。
+减肥结果，jenv从800M减肥到313M(centos)或者159M(alpine)。[imagelayers](https://imagelayers.io/?images=chaopeng%2Fjenv:latest-mini,chaopeng%2Fjenv:latest,chaopeng%2Fjenv:jdk7,chaopeng%2Fjenv:jdk8)
