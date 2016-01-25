@@ -11,26 +11,21 @@ tags: ["java","gradle"]
 - idea插件: idea.module.excludeDirs可以设置不包含的文件夹
 - apply from 可以包含其他gradle文件
 - settings.gradle 自动包含子项目（子项目需要有build.gradle文件）:
-    
-    ```{gradle}
-    def path = [] as LinkedList
 
-    rootDir.traverse(
-        type: groovy.io.FileType.FILES,
-        nameFilter: ~/.+\.gradle/,
-        maxDepth: 3,
-        preDir: { path << it.name },
-        postDir: { path.removeLast() }) { if (path) include path.join(":") }
-    ```
-    
+        def path = [] as LinkedList
+        rootDir.traverse(
+            type: groovy.io.FileType.FILES,
+            nameFilter: ~/.+\.gradle/,
+            maxDepth: 3,
+            preDir: { path << it.name },
+            postDir: { path.removeLast() }) { if (path) include path.join(":") }
+
 - build时忽略某些文件:
-
-    ```
-    sourceSets {
-      main {
-        java {
-          exclude 'file...'
+    
+        sourceSets {
+          main {
+            java {
+              exclude 'file...'
+            }
+          }
         }
-      }
-    }
-    ```
