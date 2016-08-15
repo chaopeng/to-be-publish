@@ -1,0 +1,36 @@
+<div>
+	<div class="left">
+		<img alt="avatar" src="${author.gravatar}&s=80">
+	</div>
+	<ul class="right">
+		<li><a href="mailto:${author.mail}"><i class="fa fa-envelope-o"></i> E-Mail</a></li>
+		<li><a href="${author.weibo}" target="_blank"><i class="fa fa-weibo"></i> Weibo</a></li>
+		<li><a onclick="javascript:openMyWechat('${author.wechat}');" href="javascript:void(0);"><i class="fa fa-wechat"></i>Wechat</a></li>
+		<li><a href="${author.github}" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+	</ul>
+</div>
+
+<div>
+	<h2>分享</h2>
+	<a class="share wb" onclick="javascript:shareToWeibo();" href="javascript:void(0);"><i class="fa fa-weibo fa-2x"></i></a>
+	<a class="share wc" href="javascript:shareToWechat();" target="_blank"><i class="fa fa-wechat fa-2x"></i></a>
+</div>
+
+<div>
+	<h2>友情链接</h2>
+	<ul>
+		<li><a href="http://www.wutianqi.com/" target="_blank">TankyWoo基神的博客</a></li>
+		<li><a href="http://www.thislinux.com/" target="_blank">龙哥的博客</a></li>
+	</ul>
+</div>
+
+<div>
+	<h2>最新评论</h2>
+	<script type="text/javascript" src="http://chaopeng-me.disqus.com/recent_comments_widget.js?num_items=3&hide_avatars=0&avatar_size=32&excerpt_length=200&hide_mods=0"></script>
+</div>
+
+<div>
+	<h2>声明</h2>
+	本博客仅供自娱自乐。
+	<br>欢迎捐助！
+</div>
