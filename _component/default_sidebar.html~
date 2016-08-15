@@ -26,7 +26,17 @@
 
 <div>
 	<h2>最新评论</h2>
-	<script type="text/javascript" src="http://${author.disqus}.disqus.com/recent_comments_widget.js?num_items=3&hide_avatars=0&avatar_size=32&excerpt_length=200&hide_mods=0"></script>
+	<script type="text/javascript" id="recent_comments">
+	(function(){ 
+	     var e = document.getElementsById("recent_comments");
+	     var d = document.createElement("script");
+	     d.src = "http://${author.disqus}.disqus.com/recent_comments_widget.js?num_items=3&hide_avatars=0&avatar_size=32&excerpt_length=200&hide_mods=0?timestamp="+Date.now()+"";
+	     d.type = "text/javascript"; 
+	     d.async = true;
+	     d.defer = true;
+	     e.parentNode.insertBefore(d,e);
+	 })();
+	</script>
 </div>
 
 <div>
