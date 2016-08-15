@@ -5,6 +5,7 @@
 var disqus_config = function () {
   this.page.url = "http://${article.absolutelink}";
   this.page.identifier = "${article.relativelink}";
+  this.page.title = "${article.meta.title}";
 };
 (function() {
     var d = document, s = d.createElement('script');
