@@ -42,6 +42,7 @@ IDE行不通之后我试了VIM，VIM的配置文档在[这里](https://chromium.
 - [Issue](https://bugs.chromium.org/p/chromium/issues/list)
 - [文档](https://www.chromium.org/developers)
 - [比较新一点的文档](https://chromium.googlesource.com/chromium/src/+/master/docs)
+- [Testharness.js](http://testthewebforward.org/docs/testharness-tutorial.html)
 
 吐槽一下吧，很多东西都是没有文档的，特别有些Feature是其他公司写的，连设计文档都没有-_-|||。
 
