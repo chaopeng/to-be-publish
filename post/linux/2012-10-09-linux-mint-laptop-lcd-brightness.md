@@ -6,7 +6,7 @@ description: "Linux Mint使用laptop-mode-tools调节笔记本亮度设置笔记
 tags: ["linux","linux mint","laptop-mode-tools", "笔记本亮度"]
 }
 
-** 本文无法解决mate13桌面瞎狗眼的亮度，mate之后的版本我都没有试过。 **
+**本文无法解决mate13桌面瞎狗眼的亮度，mate之后的版本我都没有试过。**
 
 用了Linux Mint这个半月最不爽的就是每次开机都是最高亮度，那一瞬间我的狗眼都要瞎了。所以必须找个办法让开机就是最低亮度。
 
