@@ -10,14 +10,14 @@ tags: ["linux","ubuntu","linux mint"]
 
 ## home目录切换回英文 ##
 
-```{bash}
+```bash
 export LANG=en_US
 xdg-user-dirs-gtk-update
 ```
 
 选上不再提示，点继续。然后换回中文：
 
-```{bash}
+```bash
 export LANG=zh_CN
 ```
 
@@ -27,7 +27,7 @@ export LANG=zh_CN
 2. 修改权限`sudo chmod 644 /usr/share/fonts/winfonts/*`
 3. 刷新字体缓存
 
-```{bash}
+```bash
 sudo mkfontscale
 sudo mkfontdir
 sudo fc-cache -fsv
@@ -39,14 +39,14 @@ sudo fc-cache -fsv
 
 2 挂载texlive镜像 
 
-```{bash}
+```bash
 sudo mkdir /mnt/iso
 sudo mount -o loop texlive2010.iso /mnt/iso
 ```
 
 3 安装
 
-```{bash}
+```bash
 sudo /mnt/iso/install-tl --gui
 ```
 

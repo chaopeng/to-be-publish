@@ -58,7 +58,7 @@ gravatar头像的地址
 
 最后附上我的写的一个获取头像的类的吧，此类基于apache lisence开源，请尊重版权。
 
-```{java}
+```java
 /** @author chao */
 public class GravatarUtils {
 	/**

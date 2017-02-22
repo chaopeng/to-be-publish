@@ -39,12 +39,12 @@ markdown导出html
 
 如果你想使用我的这个markdown-html生成器，你可以下载源代码编译，也可以使用我已经打包好的。把bin目录的文件复制到你喜欢的位置。
 然后你可以使用命令行调用：
-```{bat}
+```bat
 java -jar -Dfile.encoding=utf-8 你存放的目录\markdown.jar 输入文件的路径 输出文件的路径 
 ```
 
 你也可以在notepad++的`Run-运行`保存：
-```{npp-cmd}
+```npp-cmd
 cmd /c java -jar -Dfile.encoding=utf-8 你存放的目录\markdown.jar "$(FULL_CURRENT_PATH)" "$(CURRENT_DIRECTORY)\$(NAME_PART).html
 ```
 这样你就可以在以后使用notepad++的时候达到一键markdown导出html了。

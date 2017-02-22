@@ -10,7 +10,7 @@ tags: ["cygwin","windows"]
 
 今天无意中用了一下win的console发现原来win的没有那么糟糕。无意中试了一下再win的console运行cygwin，发现字体没有变丑。真是奇葩啊。赶紧写了个bat去运行cygwin。
 
-```{bat}
+```bat
 @echo off
 C:
 cd C:\cygwin

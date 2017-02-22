@@ -7,7 +7,7 @@ tags: ["java","log4j"]
 }
 
 在主函数加上这个static块就可以了。
-```{bash}
+```bash
 static {
 	PropertyConfigurator.configure(
 		System.getProperty("user.dir") 

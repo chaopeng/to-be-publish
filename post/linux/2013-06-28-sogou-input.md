@@ -10,7 +10,7 @@ tags: ["linux","ubuntu", "ppa", "搜狗", "输入法"]
 
 等了那么多年还是deepin给力跟搜狗合作搞了sogou for linux，好吧这玩意还是基于fcitx的，fcitx原来会遇到的问题还是会遇到。但是搜狗输入法原来的一些人性化设计还是保留了。我用了1个月了，感觉不错。这里推荐一下，这里是安装方法：
 
-```{shell}
+```bash
 sudo add-apt-repository ppa:fcitx-team/nightly
 sudo apt-get update
 sudo apt-get install fcitx-sogoupinyin

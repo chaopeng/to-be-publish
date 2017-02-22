@@ -40,7 +40,7 @@ redis是一个很强大的数据结构存储的nosql数据库，很方便针对�
 
 具体的实现:
 
-```{lua}
+```lua
 ---lock
 
 local now = tonumber(ARGV[1])

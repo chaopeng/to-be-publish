@@ -50,7 +50,7 @@ msg包定义了两种消息，乘法的消息和结果的消息。
 actor定义了两个：
 
 `ChengActor`监听`ChengMsg`的消息，做向量的乘法，然后发出`ChengResultMsg`。
-```{java}
+```java
 public class ChengActor extends UntypedActor {
 
 	@Override

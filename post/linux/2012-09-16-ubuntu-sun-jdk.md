@@ -14,7 +14,7 @@ tags: ["linux","ubuntu","java", "jdk"]
 2. 解压到/opt/java
 3. 添加环境变量，在`/etc/profile`末尾添加
 
-```{text}
+```bash
 export JAVA_HOME=/opt/jdk1.7
 export JRE_HOME=/opt/jdk1.7/jre
 export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
@@ -29,13 +29,13 @@ export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
 查了一下英文才知道ubuntu是用update-alternatives管理软件版本的。
 
-```{bash}
+```bash
 update-alternatives --display java
 ```
 
 查看现在的java的链接指向，并查看优先级的值。建议顺便把这个降低。然后设置新装的这个jdk。
 
-```{bash}
+```bash
 update-alternatives --install /usr/bin/java java /opt/jdk1.7/bin/java 300
 ```
 

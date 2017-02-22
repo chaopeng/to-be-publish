@@ -7,7 +7,7 @@ tags: ["java"]
 }
 
 java的字符串分割在字符串类里面有一个很方便的函数叫split。调用十分方便，相信一般的初学者都知道。
-```{java}
+```java
 String s = "1&2&3";
 String[] substrs = s.split("&");
 ```
@@ -17,7 +17,7 @@ String[] substrs = s.split("&");
 对特殊串的分割处理
 ---
 比如这样的例子
-```{java}
+```java
 //--------1---------
 String[] substrs = "".split("&"); 
 // 这样会substrs 的长度是1, 这个还比较好理解
@@ -35,7 +35,7 @@ String[] substrs = "1&&".split("&");
 出现错误不抛出
 ---
 上面的问题通过尝试还是可以有所了解的。问题出现在一次我对uri的处理上面，如这样的串: `http://www.baidu.com/s?wd=av`，ok现在我要分割这个问号了：
-```{java}
+```java
 String[] substr = "http://www.baidu.com/s?wd=av".split("?");
 ```
 好了，线程直接就断掉了，tmd这什么回事？会想一下才记起来split是支持正则表达式的，这个?确实会引发问题，但是尼玛的给个异常不行吗？这绝对是坑新人啊。
@@ -46,7 +46,7 @@ String[] substr = "http://www.baidu.com/s?wd=av".split("?");
 特殊串处理的结果
 ---
 
-```{java}
+```java
 //--------1---------
 StringTokenizer st = new StringTokenizer("", "&");
 int n = st.countTokens(); // 结果是0

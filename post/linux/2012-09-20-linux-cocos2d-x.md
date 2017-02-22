@@ -20,7 +20,7 @@ tags: ["linux","cocos2d-x","android","移动端"]
 * 下载[Android SDK](https://developer.android.com/sdk/index.html)。解压到`/opt`。
 * 打开GUI安装
 
-```{bash}
+```bash
 cd /opt/android-sdk-linux/tools
 chmod +x android
 ./android update sdk
@@ -30,7 +30,7 @@ chmod +x android
 
 在`/etc/profile`末尾添加：
 
-```{text}
+```bash
 export ANDROID_HOME=/opt/android-sdk-linux
 ```
 
@@ -43,14 +43,14 @@ export ANDROID_HOME=/opt/android-sdk-linux
 
 在`/etc/profile`末尾添加：
 
-```{text}
+```bash
 export NDK_ROOT=/opt/android-sdk-linux/android-ndk
 export COCOS2DX_ROOT=/home/chao/cworkspace/cocos2d-x
 export PATH=$NDK_ROOT:$ANDROID_HOME/platform-tools:$PATH
 ```
 
 * 解决x64下ndk-build报错
-```{text}
+```bash
 sudo apt-get install libc6-dev-i386 ia32-libs
 ```
 
@@ -78,7 +78,7 @@ Eclipse最好下载C/C++版本，或者下Classic装CDT插件。
 ---
 
 安装glfw和zlib
-```{bash}
+```bash
 sudo apt-get install libglfw-dev zlib
 ```
 
@@ -86,7 +86,7 @@ sudo apt-get install libglfw-dev zlib
 ---
 在cocos2d-x目录下
 
-```{bash}
+```bash
 cd cocos2dx／proj.linux
 make
 sudo cp libcocos2d.so /usr/lib
@@ -100,7 +100,7 @@ cocos2d-x依赖于libcurl。在ubuntu的源下，这个包的名字叫`libcurl4-
 ---
 在cocos2d-x目录下
 
-```{bash}
+```bash
 cd CocosDenshion／proj.linux
 make
 sudo cp libcocosdenshion.so /usr/lib

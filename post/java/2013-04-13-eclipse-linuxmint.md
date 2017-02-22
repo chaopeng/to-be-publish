@@ -10,7 +10,7 @@ tags: ["java","eclipse"]
 
 eclipse目录下面创建文件ec-gtkrc:
 
-```{gtk-style}
+```gtk-style
 style "eclipse_ui" {   
 	xthickness=1	
 	ythickness=1  
@@ -51,7 +51,7 @@ class "GtkPaned" style "eclipse_ui"
 里面有个font_name="Monospace 8"就是调整界面大小的。
 
 在桌面创建一个脚本:
-```{bash}
+```bash
 #!/bin/sh
 GTK2_RC_FILES=/opt/eclipse/ec-gtkrc /opt/eclipse/eclipse
 ```

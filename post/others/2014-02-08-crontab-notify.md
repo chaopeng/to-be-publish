@@ -14,7 +14,7 @@ tags: ["crontab","linux"]
 
 我现在的DE是xfce，弹窗用zenity实现就可以了。然后就是设置crontab了。
 
-```{bash}
+```bash
 crontab -e
 0 17 * * * export DISPLAY=:0.0;zenity --info --text "打电话给老婆啦"
 ```

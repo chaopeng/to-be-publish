@@ -10,7 +10,7 @@ tags: ["ChaosBlog","测试","markdown"]
 
 测试代码块
 ----
-```{java}
+```java
 system.out.println("hello");
 system.out.println("hello again");
 ```

@@ -18,7 +18,7 @@ Java的反射是个老问题了，因为有了反射的特性，Java是一个接
 3. 缓存需要查找的函数反射的耗时
 4. 使用reflectasm的反射耗时
 
-```{java}
+```java
 long now;
 long sum = 0;
 TestClass t = new TestClass();

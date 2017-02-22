@@ -12,7 +12,7 @@ tags: ["linux","linux mint","laptop-mode-tools", "笔记本亮度"]
 
 打开/etc/default/acpi-support ，发现最后有这么一段注释：
 
-```{text}
+```bash
 # Note: to enable "laptop mode" (to spin down your hard drive for longer
 # periods of time), install the laptop-mode-tools package and configure
 # it in /etc/laptop-mode/laptop-mode.conf.
@@ -21,13 +21,13 @@ tags: ["linux","linux mint","laptop-mode-tools", "笔记本亮度"]
 1 所以开始安装吧：`apt-get install laptop-mode-tools`
 
 2 然后就开始配置了，打开`/etc/laptop-mode/laptop-mode.conf`修改：
-```{text}
+```bash
 # 在交流电下也使用笔记本配置
 ENABLE_LAPTOP_MODE_ON_AC=1
 ```
 
 3 最后打开`/etc/laptop-mode/conf.d/lcd-brightness.conf`修改：
-```{text}
+```bash
 #
 # 启动亮度控制
 CONTROL_BRIGHTNESS=1
