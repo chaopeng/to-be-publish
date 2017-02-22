@@ -12,20 +12,24 @@ tags: ["java","gradle"]
 - apply from 可以包含其他gradle文件
 - settings.gradle 自动包含子项目（子项目需要有build.gradle文件）:
 
-        def path = [] as LinkedList
-        rootDir.traverse(
-            type: groovy.io.FileType.FILES,
-            nameFilter: ~/.+\.gradle/,
-            maxDepth: 3,
-            preDir: { path << it.name },
-            postDir: { path.removeLast() }) { if (path) include path.join(":") }
+```gradle
+def path = [] as LinkedList
+rootDir.traverse(
+  type: groovy.io.FileType.FILES,
+  nameFilter: ~/.+\.gradle/,
+  maxDepth: 3,
+  preDir: { path << it.name },
+  postDir: { path.removeLast() }) { if (path) include path.join(":") }
+```
 
 - build时忽略某些文件:
-    
-        sourceSets {
-          main {
-            java {
-              exclude 'file...'
-            }
-          }
-        }
+
+```gradle   
+sourceSets {
+  main {
+    java {
+      exclude 'file...'
+    }
+  }
+}
+```
