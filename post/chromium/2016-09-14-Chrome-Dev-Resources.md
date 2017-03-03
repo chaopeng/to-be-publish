@@ -1,9 +1,9 @@
 {
 layout: "pages",
 title: "Chrome开发笔记",
-category: "Google",
+category: "Chromium",
 description: "Chrome的开发笔记整理",
-tags: ["chrome","google"]
+tags: ["chrome","chromium"]
 }
 
 [TOC]
