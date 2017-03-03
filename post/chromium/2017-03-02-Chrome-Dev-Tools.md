@@ -16,7 +16,8 @@ tags: ["chrome","chromium"]
 [这里](https://www.chromium.org/developers/)有好几个IDE/Editor可以选，其中`atom`那个
 文档我改过，`qtcreator`和`vscode`的文档是我写的。我从一开始用`sublime`折腾到`atom`再折腾
 到`qtcreator`和`vscode`。现在我倾向于在workstation用`qtcreator`，在workstation里面
-index整个chromium只需要3分钟，太神了，秒杀VS、Eclipse、Clion、Xcode（这些我都试了）。
+index整个chromium只需要3分钟，太神了，秒杀`VS`、`Eclipse`、`Clion`、`Xcode`
+（这些我都试了）。
 然后在笔记本里面就用`vscode`，尽管没有了refactor的功能，但起码代码跳转，补全都是可以的。
 
 这是一篇我
@@ -46,7 +47,7 @@ Chromium Code Search是非常强大的工具，特别是像Chromium那么庞大�
 
 我另外还做了个小脚本用来从Editor跳转到Chromium Code Search。
 
-```
+```bash
 chrome https://cs.chromium.org/chromium/src/${path}?l=${line}
 ```
 
@@ -69,7 +70,7 @@ Chromium的buildbot会将所有build好的二进制放到
 有些时候，trybot会返回一些在本地难以复现的错误。有些时候确实跟trybot的编译参数有关，这时候可以
 试试用这个[工具](https://cs.chromium.org/chromium/src/tools/mb/mb.py)。一个例子：
 
-```
+```bash
 ${CHROMIUM_SRC}/tools/mb/mb.py gen -m chromium.fyi -b "Site Isolation Android" <output directory>
 ```
 
@@ -78,7 +79,7 @@ ${CHROMIUM_SRC}/tools/mb/mb.py gen -m chromium.fyi -b "Site Isolation Android" <
 如果你收到一个perf regression该怎么办，很可能这个并不关你事，要证明你可以先创建一个revert 
 patch，然后在trybot上跑一次这个test。
 
-```
+```bash
 ${CHROMIUM_SRC}/tools/perf/run_benchmark try $trybot $task
 ```
 
