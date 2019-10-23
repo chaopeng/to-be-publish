@@ -22,4 +22,4 @@ tags: ["markdown", "chrome"]
     
     大家也可以看看这个截图:
     
-    ![chrome的arkdown的高亮](http://i1303.photobucket.com/albums/ag154/chaopeng/blog/4a929b81-7286-49f1-a133-9fbfe1b780d6_zps2cce1717.jpg)
+    ![chrome的markdown的高亮](/assets/img/markdown/md-chrome.png)

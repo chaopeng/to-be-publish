@@ -25,7 +25,7 @@ github上面有一个很好的[配置文件](https://github.com/robwierzbowski/N
 
 这个是我的notepad++。
 
-![notepad++的markdown的高亮](http://i1303.photobucket.com/albums/ag154/chaopeng/blog/markdown-highlight_zps5814eb57.jpg)
+![notepad++的markdown的高亮](/assets/img/markdown/md-npp.png)
 
 markdown导出html
 ----

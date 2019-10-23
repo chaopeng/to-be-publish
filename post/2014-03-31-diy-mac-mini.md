@@ -39,15 +39,11 @@ HP 120W AC Adapter            | 60
 
 最后上图了。
 
-![](http://i1303.photobucket.com/albums/ag154/chaopeng/diy-mac-mini/IMG_7317_zpsace15d83.jpg)
+![](/assets/img/mac-mini/mac-mini-1.png)
 
-![](http://i1303.photobucket.com/albums/ag154/chaopeng/diy-mac-mini/IMG_7311_zpsad06c6ab.jpg)
+![](/assets/img/mac-mini/mac-mini-2.png)
 
-![](http://i1303.photobucket.com/albums/ag154/chaopeng/diy-mac-mini/IMG_7348_zps7fb3a094.jpg)
-
-![](http://i1303.photobucket.com/albums/ag154/chaopeng/diy-mac-mini/IMG_7362_zps281ffa39.jpg)
- 
-[更多照片](http://s1303.photobucket.com/user/chaopeng/library/diy-mac-mini)
+![](/assets/img/mac-mini/mac-mini-3.png)
 
 **特别感谢**
 
