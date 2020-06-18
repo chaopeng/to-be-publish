@@ -17,51 +17,71 @@ tags: ["keyboard", "ergodox"]
 
 为了拯救我的手，我只好又麻烦[键少](https://www.weibo.com/u/7416130070)（希望你看到文章的时候，键少还没有炸号吧），我们讨论了一些人体工学的键盘：
 
-1. [罗技k860 ERGO](https://www.logitech.com/en-ca/product/k860-split-ergonomic-keyboard)和[巨硬Sculpt](https://www.microsoft.com/accessories/en-us/products/keyboards/sculpt-ergonomic-desktop/l5v-00001)这些都不考虑
-2. [Kinesis Advantage2](https://kinesis-ergo.com/shop/advantage2/): 老牌的人体工学键盘
-  - 优点
+### [罗技k860 ERGO](https://www.logitech.com/en-ca/product/k860-split-ergonomic-keyboard)和[巨硬Sculpt](https://www.microsoft.com/accessories/en-us/products/keyboards/sculpt-ergonomic-desktop/l5v-00001)
+
+这些都不考虑
+
+### [Kinesis Advantage2](https://kinesis-ergo.com/shop/advantage2/)
+
+老牌的人体工学键盘
+
+- 优点
     - 机械键盘
     - 键位可改
     - 可选脚踏按键
-  - 缺点
+- 缺点
     - 只有茶轴可以选
     - 键位改起来不方便
     - 键帽是定制的，自己不好搞
     - 左右手距离是固定的，位置可能还是不合适
-3. [Matias Ergo Pro](https://matias.ca/ergopro/pc/): 市面上唯一一个 ALPS 的正统传人
-  - 优点
+
+### [Matias Ergo Pro](https://matias.ca/ergopro/pc/)
+
+市面上唯一一个 ALPS 的正统传人
+
+- 优点
     - 一个不一样的轴体体验
     - 加拿大民族企业
-  - 缺点
+- 缺点
     - 不知道会不会喜欢这个轴体
     - 键帽是没法玩了
-4. [Ergodox EZ](https://ergodox-ez.com/): 基于开源的[ergodox](https://www.ergodox.io/)项目
-  - 优点
+
+### [Ergodox EZ](https://ergodox-ez.com/)
+
+基于开源的[ergodox](https://www.ergodox.io/)项目
+
+- 优点
     - 机械键盘
     - 热插拔，可以方便换轴
     - 基于QMK，所有键都可以定制，多层配置，任何快捷键都可以定制成2个按键组合
     - 可选定制的腕托，可选角度调整的脚
     - 滑铁卢本地企业
     - 由于用脚调整高度，可以用DSA或者XDA这种纯平的键帽
-  - 缺点
+- 缺点
     - 垂直排列，指法需要使用
-5. [Dygma Raise](https://www.dygma.com/product/dygma-raise/): reddit上面的期货键盘
-  - 优点
+
+### [Dygma Raise](https://www.dygma.com/product/dygma-raise/)
+
+reddit上面的期货键盘
+
+- 优点
     - 看着最接近87键盘的布局
     - 机械键盘
     - 热插拔，可以方便换轴
     - 拇指8键可以定制
-  - 缺点
+- 缺点
     - 没有粉红轴可以选
     - 期货不知道什么时候发
-6. [ultimate hacking keyboard](https://ultimatehackingkeyboard.com/)
-  - 优点
+
+### [ultimate hacking keyboard](https://ultimatehackingkeyboard.com/)
+
+- 优点
     - 机械键盘
     - 看着最接近87键盘的布局
     - firmware开源，类似QMK也是所有键都可以定制，也有QMK层的概念
     - 可选触摸板，小红帽
     - 特殊尺寸的键帽不多，可能可以定制
-  - 缺点
+- 缺点
     - 没有粉红轴可以选
 
 当然在买了以后我还发现了一些DIY的Ergodox和毒蟒键盘，DIY很接近商业版的Ergodox就是没有了脚可以调角度，毒蟒那个外露的金手指我实在无法接受。
