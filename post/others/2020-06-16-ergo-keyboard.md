@@ -94,6 +94,10 @@ tags: ["keyboard", "ergodox"]
 ![](/assets/img/ergodox/5.jpg)
 ![](/assets/img/ergodox/6.jpg)
 
+## 手痛问题
+
+手痛问题在使用键盘1周后得到缓解，至今2个多月没有复发，而且我有在观察我的手腕姿势，一直能保持得很好。
+
 ## 广告时间
 
 最后我来打个广告，我准备将我这套键帽开团，PBT材质热升华印字。[讨论](https://drop.com/talk/42238/chaos-ez-dye-pbt-xda-keycap-set-for-ergodox-ez-c)
